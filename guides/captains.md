@@ -1,14 +1,19 @@
 ---
 layout: default
 title: Captain guide
-description: "Use the Bracket Control Captain Dashboard to confirm tournament participation, make live draft picks, request reserve substitutes, edit rosters and report wins."
+description: "Find team and roster editing, participation confirmation, and match reporting in the Bracket Control Captain Dashboard. Use Overview to see your next task."
 permalink: /guides/captains/
 ---
 # Captain Dashboard
 
 Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
 
-Sign in with the Discord account assigned as your team’s captain, then open [Captain Dashboard](https://bracketcontrol.runs-on.dev/app/my-matches). Your team, tournament and next task appear together.
+Sign in with the Discord account assigned as your team’s captain. Expand **Captain Dashboard** in the sidebar. On mobile, open **Navigation** first.
+
+- **Overview** shows your team, tournament and next task, including live draft picks.
+- **Team** opens your roster and team editing.
+- **Participation** shows your attendance status and lets you confirm or decline when eligible.
+- **Score Reporting** opens your matches, results forms and match history. You can also select **Score Reporting** next to **Match Results** in the tournament’s top navigation.
 
 Use **Your tournament** to switch between your teams and events. The dashboard first opens an event needing attention and keeps your choice while you work. Existing captain links still work.
 
@@ -20,12 +25,14 @@ Your roster and participation status are separate. An approved lineup does not c
 
 ## Confirm participation
 
-1. Choose the tournament you intend to play.
+1. Open **Captain Dashboard → Participation** and choose the tournament you intend to play.
 2. Select **Confirm participation**.
 3. If the team editor opens, review your lineup and confirm participation there.
 4. Check that attendance says **Confirmed**.
 
 An unchanged lineup can retain approval. Changed lineups still need organiser approval. Opening a captain link does not check your team in.
+
+If you can’t attend, select **Decline participation** when available and confirm the withdrawal. An organiser must reinstate the entry if you change your mind.
 
 ## Draft your team
 
@@ -56,7 +63,7 @@ The Reserve Player Pool contains undrafted players from this tournament. It is c
 
 ## Report or confirm a result
 
-1. Find your opponent under **Active matches**.
+1. Open **Score Reporting** and find your opponent under **Active matches**.
 2. If your team won the current game, upload one scoresheet and select **Report Win**. Use PNG, JPEG, WebP or PDF, up to **10 MB**.
 3. If the opponent reported a win, open their scoresheet and select **Confirm Result**, or enter a reason and select **Dispute Result**.
 4. Wait for confirmation before reporting another game. A dispute waits for organiser review.
@@ -67,7 +74,7 @@ Completed matches move into **Match History**. Expand **Game history and scoresh
 
 ## Edit team members
 
-1. Under **Your roster**, select **Edit team members** when available.
+1. Open **Captain Dashboard → Team** and select **Edit team members** when available.
 2. Update the lineup in the editor on the same dashboard. Use the Discord member search when shown.
 3. Review the required information and select **Submit roster for approval**.
 4. Close the editor when finished. Attendance stays separate from roster changes.
