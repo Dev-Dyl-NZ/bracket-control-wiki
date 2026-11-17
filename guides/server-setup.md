@@ -35,6 +35,27 @@ Choose **Not Required** for unused features. Website-only organisers can leave e
 
 Keep Staff Approvals private. If you enable support tickets, select its panel channel, private category and support staff settings. Choose categories only where needed. Existing configured channels and support settings remain available.
 
+### Understand the category preview
+
+Each category has a short explanation and a list of associated channels. The preview uses your selected Discord names and updates immediately when you change a selection, edit a proposed name or enable or disable Support Tickets. The same grouping appears on **Review & Confirm**.
+
+| Category | Used for |
+| --- | --- |
+| Bracket Control | Team registration, announcements, approved team lists, brackets, standings and results. |
+| Community Support | The public support ticket panel where members ask for help. |
+| Staff Management | Private team approvals and staff notifications. |
+| Support Tickets | Individual private ticket channels, separate from the public panel. |
+| Tournament Voice | The draft waiting room and temporary captain and team voice rooms. |
+
+Check the action beside each resource:
+
+- **Create:** Bracket Control will create a new channel or category after approval. New channels show the selected category, or say they will be created without one.
+- **Reuse:** Bracket Control will use the selected existing resource. Existing channels keep their location, even if listed under a different proposed category.
+- **Not Required:** The resource will not be configured. Disabled optional channels are not created; disabling Support Tickets creates no support channel, ticket category or panel.
+- **Created When Needed:** Individual private ticket channels are created only when a member opens a ticket. Existing draft voice automation can create temporary captain and team rooms when required, in the waiting room's actual category. Setup does not create these temporary rooms.
+
+Automatic Setup offers creation and reuse. Manual Setup only selects existing resources; enabling tickets or draft voice still allows their existing workflows to create channels later when needed. Review the grouped actions before approving the existing confirmation checkbox.
+
 ### Support ticket closure settings
 
 After setup, open **Server Management → Support Tickets → Support Ticket Settings** to manage tickets for that Discord server. The following options are enabled by default:
