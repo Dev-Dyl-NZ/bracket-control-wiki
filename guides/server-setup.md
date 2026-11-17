@@ -15,7 +15,7 @@ Connect your server, then configure only the features your community uses. **Eve
 3. Open **Complete server setup**, or **Server settings → Open Server Setup**.
 4. Choose **Automatic Setup** to create selected resources after review, or **Manual Setup** to select resources you have already created in Discord.
 
-Manual Setup keeps existing channel names, locations and permissions. Use **Refresh Discord inventory** after making changes in Discord.
+Manual Setup keeps existing channel names and permissions. Existing channels default to **Keep Current Location**; only separately approved moves change their location. Use **Refresh Discord inventory** after making changes in Discord.
 
 ## Choose optional channels
 
@@ -37,7 +37,7 @@ Keep Staff Approvals private. If you enable support tickets, select its panel ch
 
 ### Understand the category preview
 
-Each category has a short explanation and a list of associated channels. The preview uses your selected Discord names and updates immediately when you change a selection, edit a proposed name or enable or disable Support Tickets. The same grouping appears on **Review & Confirm**.
+Each category has a short explanation and a list of channels assigned to it. The preview uses your selected Discord names and updates immediately when you change a selection, edit a proposed name or enable or disable Support Tickets. The same grouping appears on **Review & Confirm**.
 
 | Category | Used for |
 | --- | --- |
@@ -50,11 +50,24 @@ Each category has a short explanation and a list of associated channels. The pre
 Check the action beside each resource:
 
 - **Create:** Bracket Control will create a new channel or category after approval. New channels show the selected category, or say they will be created without one.
-- **Reuse:** Bracket Control will use the selected existing resource. Existing channels keep their location, even if listed under a different proposed category.
+- **Reuse:** Bracket Control will use the selected existing resource. Existing channels default to **Keep Current Location** and appear under their actual current category.
+- **Move — Explicit Approval Required:** An existing channel will move only after its separate acknowledgement and the normal setup confirmation. The acknowledgement names the channel and its original and proposed categories. Permissions are kept without synchronising them to the destination.
 - **Not Required:** The resource will not be configured. Disabled optional channels are not created; disabling Support Tickets creates no support channel, ticket category or panel.
 - **Created When Needed:** Individual private ticket channels are created only when a member opens a ticket. Existing draft voice automation can create temporary captain and team rooms when required, in the waiting room's actual category. Setup does not create these temporary rooms.
 
 Automatic Setup offers creation and reuse. Manual Setup only selects existing resources; enabling tickets or draft voice still allows their existing workflows to create channels later when needed. Review the grouped actions before approving the existing confirmation checkbox.
+
+### Fit your existing server structure
+
+Every configured channel has a **Category for ...** dropdown. It lists the server's existing categories, optional recommended Bracket Control categories in Automatic Setup, **No Category**, and **Keep Current Location** for existing channels. The current location is shown beneath each existing channel's selection.
+
+For a migrating community, select your existing channels and leave **Keep Current Location** selected. No reorganisation or permission changes are needed. For new channels, choose a compatible existing category or an optional recommended category. Unused proposed categories will not be created. Manual Setup uses only existing channels and categories.
+
+Changing a category moves the channel between the proposed layout groups immediately. On **Review & Confirm**, check each existing channel's current and destination categories. Each move needs its own unchecked acknowledgement as well as the normal setup confirmation. Existing channel names and permissions stay unchanged.
+
+Moves are blocked if the destination has a different visibility audience, if permissions cannot be verified, or if the bot or approving administrator cannot view and manage the channel and destination. Choose Keep Current Location or correct permissions directly in Discord; setup never synchronises existing channel permissions for you. Draft waiting rooms cannot move while a draft is live, and existing temporary voice rooms are never relocated by setup.
+
+The public support panel has its own channel location. The separate **Support Tickets** category still controls where private ticket channels are created when members request help. Staff Approvals remains private to authorised tournament staff; choosing a support role does not grant tournament administration access.
 
 ### Support ticket closure settings
 
