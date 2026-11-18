@@ -13,7 +13,7 @@ For current tournaments, captains report each game they win. The opposing captai
 ## 1. Report a game victory
 
 1. Sign in with the Discord account assigned as your team's captain.
-2. Open **Captain Dashboard**. Check the tournament, opponent and game number.
+2. Select **Score Reporting** in the tournament’s top navigation or under **Captain Dashboard** in the sidebar. Check the tournament, opponent and game number.
 3. Under **One scoresheet (required)**, choose one screenshot or scoresheet showing that game's result.
 4. Use PNG, JPEG, WebP or PDF, up to **10 MB**.
 5. Select **Report Win** only if your team won that game.
@@ -23,7 +23,7 @@ Existing captain links open the same team actions. Completed matches appear unde
 
 ## 2. Confirm or dispute
 
-1. The opposing captain opens **Captain Dashboard** and finds the game awaiting confirmation.
+1. The opposing captain opens **Score Reporting** and finds the game awaiting confirmation.
 2. Open the game's scoresheet link and check the reported winner.
 3. If correct, select **Confirm Result**. No second screenshot is required to confirm.
 4. If wrong, enter a **Dispute reason** and select **Dispute Result**.
