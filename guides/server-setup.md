@@ -26,6 +26,7 @@ If you still manage the Discord server, open **Your Discord servers**, find it u
 Bracket Control keeps the original community and its settings. Review any channel or role warnings in **Server settings** and correct them in Discord or update the saved selections. Reconnecting uses valid existing settings and skips outdated one-off messages. Review any interrupted tournament before continuing.
 
 A permanently deleted Discord server cannot be reconnected. Connect a replacement server as a new community, even if it has the same name. The original tournament history stays with the original Discord server.
+
 ## Choose optional channels
 
 | Setting | Purpose |
