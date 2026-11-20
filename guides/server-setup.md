@@ -17,6 +17,15 @@ Connect your server, then configure only the features your community uses. **Eve
 
 Manual Setup keeps existing channel names and permissions. Existing channels default to **Keep Current Location**; only separately approved moves change their location. Use **Refresh Discord inventory** after making changes in Discord.
 
+## Reconnect a disconnected server
+
+Removing the Bracket Control bot in Discord disconnects the server automatically. It leaves the active server selector, and Discord-dependent registration, notifications, channel updates and draft automation pause. Tournament records, completed brackets, teams and match results are kept. Existing history links still follow the tournament's access settings.
+
+If you still manage the Discord server, open **Your Discord servers**, find it under **Disconnected servers**, and select **Reconnect Discord Bot**. Complete the Discord installation and return to Bracket Control. If someone has already invited the bot back, open **Server settings** and select **Check bot connection**.
+
+Bracket Control keeps the original community and its settings. Review any channel or role warnings in **Server settings** and correct them in Discord or update the saved selections. Reconnecting uses valid existing settings and skips outdated one-off messages. Review any interrupted tournament before continuing.
+
+A permanently deleted Discord server cannot be reconnected. Connect a replacement server as a new community, even if it has the same name. The original tournament history stays with the original Discord server.
 ## Choose optional channels
 
 | Setting | Purpose |
