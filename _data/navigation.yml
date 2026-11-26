@@ -124,6 +124,8 @@
   url: /guides/player-participation/
 - title: Website legal acknowledgement
   url: /guides/legal-acknowledgement/
+- title: Discord Slash Commands
+  url: /guides/discord-commands/
 - title: Server Audit Log
   url: /guides/audit-log/
 - title: Discord Setup Guide (PDF)

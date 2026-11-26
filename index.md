@@ -30,6 +30,8 @@ Bracket Control helps Discord communities register players and teams, run live d
 
 ## Play and follow results
 
+- [Discord slash commands]({{ '/guides/discord-commands/' | relative_url }})
+
 - [Team registration]({{ '/guides/team-registration/' | relative_url }})
 - [Captain guide]({{ '/guides/captains/' | relative_url }})
 - [Match results]({{ '/guides/match-results/' | relative_url }})
