@@ -25,7 +25,13 @@ These cookies are for **authentication and security**, not advertising. Preventi
 
 The app uses an in-memory CSRF token for signed-in requests, not a separate CSRF cookie. Browser `sessionStorage` can remember a chosen server, tournament or certain older interface preferences; it is not an ordinary cookie.
 
-The reviewed application source does not intentionally install advertising or analytics tracking tags. If optional tracking is introduced, this notice and any legally required choice mechanisms must be updated first.
+## Optional analytics
+
+Google Analytics is currently off in production. If enabled after acceptance, the purpose is to understand which public Bracket Control pages people use. You can allow or decline it in **Analytics preferences** on the app home page or under **Privacy Settings**. Your browser stores that choice. You can disable analytics there at any time to stop future collection from that browser.
+
+If you opt in after activation, Google may use analytics cookies or similar browser identifiers to distinguish visits and process measurement requests outside New Zealand. Bracket Control's page-view data uses general route labels and does not include Discord identifiers, account details, private tournament or team information, sign-in tokens or sensitive URL parameters. We do not use this feature for advertising. Withdrawal stops future collection but does not delete events already sent to Google. Browser controls also let you clear site data and cookies.
+
+See the [Privacy Policy]({{ '/legal/privacy/' | relative_url }}) for information about providers, overseas handling and how to contact us about your rights.
 
 ## Discord and hosting providers
 
