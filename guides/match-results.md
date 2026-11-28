@@ -6,6 +6,8 @@ permalink: /guides/match-results/
 ---
 # Report and confirm match results
 
+[Watch the Captain score reporting tutorial]({{ '/guides/tutorials/captain-score-reporting/' | relative_url }}) or follow the full [Double Elimination BO3 walkthrough]({{ '/guides/tutorials/double-elimination-bo3/' | relative_url }}).
+
 Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
 
 For current tournaments, captains report each game they win. The opposing captain reviews the evidence before the game counts towards the match.
