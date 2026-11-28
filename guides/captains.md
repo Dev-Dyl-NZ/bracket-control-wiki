@@ -6,6 +6,8 @@ permalink: /guides/captains/
 ---
 # Captain Dashboard
 
+[Watch the short Captain score reporting tutorial]({{ '/guides/tutorials/captain-score-reporting/' | relative_url }}) for a video of report submission and confirmation.
+
 Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
 
 Sign in with the Discord account assigned as your team’s captain. Expand **Captain Dashboard** in the sidebar. On mobile, open **Navigation** first.

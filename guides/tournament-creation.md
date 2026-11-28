@@ -6,6 +6,8 @@ permalink: /guides/tournament-creation/
 ---
 # Create a tournament
 
+For guided examples, see [Snake Draft tournament]({{ '/guides/tutorials/draft-tournament/' | relative_url }}) or [Double Elimination BO3 and BO1]({{ '/guides/tutorials/double-elimination-bo3/' | relative_url }}).
+
 Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
 
 

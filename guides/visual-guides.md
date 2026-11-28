@@ -6,6 +6,8 @@ permalink: /guides/visual-guides/
 ---
 # Illustrated user guides
 
+For newer playable videos, screenshots and printable walkthroughs, open the [Video tutorials library]({{ '/guides/tutorials/' | relative_url }}). The original illustrated PDFs below remain unchanged.
+
 Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
 
 The **original Bracket Control PDF guides** are preserved below with their screenshots and direct links. Screenshots may show earlier screens. Use the current [Discord Server Setup]({{ '/guides/server-setup/' | relative_url }}), [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}) and [Team registration]({{ '/guides/team-registration/' | relative_url }}) web guides for current instructions.

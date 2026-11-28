@@ -83,12 +83,26 @@
   url: /guides/visual-guides/
   previous_url: /guides/match-results/
   previous_title: Match results
-  next_url: /troubleshooting/
-  next_title: Troubleshooting
-- title: Troubleshooting
-  url: /troubleshooting/
+  next_url: /guides/tutorials/
+  next_title: Video tutorials
+- title: Video tutorials
+  url: /guides/tutorials/
   previous_url: /guides/visual-guides/
   previous_title: Illustrated guides
+  next_url: /troubleshooting/
+  next_title: Troubleshooting
+- title: Automatic Server Setup tutorial
+  url: /guides/tutorials/automatic-server-setup/
+- title: Snake Draft tournament tutorial
+  url: /guides/tutorials/draft-tournament/
+- title: Double Elimination BO3 tutorial
+  url: /guides/tutorials/double-elimination-bo3/
+- title: Captain score reporting tutorial
+  url: /guides/tutorials/captain-score-reporting/
+- title: Troubleshooting
+  url: /troubleshooting/
+  previous_url: /guides/tutorials/
+  previous_title: Video tutorials
   next_url: /legal/privacy/
   next_title: Privacy Policy
   top_nav: true

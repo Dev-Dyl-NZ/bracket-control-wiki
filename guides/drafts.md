@@ -6,6 +6,8 @@ permalink: /guides/drafts/
 ---
 # Draft tournaments
 
+[Watch the Snake Draft tournament tutorial]({{ '/guides/tutorials/draft-tournament/' | relative_url }}) to follow tournament creation, captain selection, live picks and completed rosters.
+
 Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
 
 A draft starts with individual players. Selected captains choose players on the website to form teams, then the organiser generates the bracket.

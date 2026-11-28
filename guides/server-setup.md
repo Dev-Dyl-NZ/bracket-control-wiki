@@ -6,6 +6,8 @@ permalink: /guides/server-setup/
 ---
 # Discord Server Setup
 
+[Watch the Automatic Server Setup video tutorial]({{ '/guides/tutorials/automatic-server-setup/' | relative_url }}) for screenshots of the optional channel wizard, review screen and final checks.
+
 Connect your server, then configure only the features your community uses. **Every Discord channel is optional.** No registration role, player-registration channel or verification message is needed.
 
 ## Connect and choose a method
